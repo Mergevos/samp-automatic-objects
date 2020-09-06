@@ -29,7 +29,7 @@ There're a few functions and a callback.
 
 ### Creating
 
-Following function creates a movable object with its area. When a player enters area, objects start to move
+Following function creates a movable object with its area. When a player enters area, objects start to move.
 
 ```pawn
 AutoObject_Create(modelid, Float: X, Float: Y, Float: Z, Float: minX, Float: minY, Float: maxX, Float: maxY, Float: rX, Float: rY, Float: rZ, Float: torX, Float: torY, Float: torZ, Float: toX, Float: toY, Float: toZ, Float: move_speed, virtualworld, interior)
