@@ -1,0 +1,12 @@
+{
+	"user": "Mergevos",
+	"repo": "samp-automatic-objects",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"samp-incognito/samp-streamer-plugin",
+		"pawn-lang/YSI-Includes@5.x"
+	]
+}
+	
