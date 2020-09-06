@@ -2,6 +2,8 @@
 
 [![Mergevos](https://img.shields.io/badge/mergevos-samp--automatic--objects-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/samp-automatic-objects)
 
+Automatic Objects is a library allowing you to use and create automatic movable objects.
+
 
 ## Installation
 
@@ -26,6 +28,8 @@ Dependencies are installed automatically. It's using YSI Library v5, together wi
 There're a few functions and a callback.
 
 ### Creating
+
+Following function creates a movable object with its area. When a player enters area, objects start to move
 
 ```pawn
 AutoObject_Create(modelid, Float: X, Float: Y, Float: Z, Float: minX, Float: minY, Float: maxX, Float: maxY, Float: rX, Float: rY, Float: rZ, Float: torX, Float: torY, Float: torZ, Float: toX, Float: toY, Float: toZ, Float: move_speed, virtualworld, interior)
