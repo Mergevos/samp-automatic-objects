@@ -25,7 +25,7 @@ Dependencies are installed automatically. It's using YSI Library v5, together wi
 
 There're a few functions and a callback.
 
-# Creating
+### Creating
 
 ```pawn
 AutoObject_Create(modelid, Float: X, Float: Y, Float: Z, Float: minX, Float: minY, Float: maxX, Float: maxY, Float: rX, Float: rY, Float: rZ, Float: torX, Float: torY, Float: torZ, Float: toX, Float: toY, Float: toZ, Float: move_speed, virtualworld, interior)
@@ -53,7 +53,7 @@ So, further we will look onto params:
     virtualworld: Object's virtualworld to be created in
     interior: Object's interiorid to be created in
 ```
-# Position checking
+### Position checking
 
 In destroying part we've theese 2 functions:
 ```pawn
@@ -65,7 +65,7 @@ AutoObject_IsPlayerInAutoArea(playerid, areaid)
 ```
 This function checks if player's inside a particular area.
 
-# Alias 
+### Alias 
 
 The following code allows you to alias function names, thus by adding `#define AUTO_OBJECT_ALIAS_ON`
 ```pawn
@@ -80,7 +80,7 @@ The following code allows you to alias function names, thus by adding `#define A
 To adjust number of max possible automatic created objects use:
 `#define MAX_AUTO_OBJECTS` by default is 32.
 
-# Enums and callbacks
+### Enums and callbacks
 
 This is used to check changed state of an object, imagining it like a gate.
 
