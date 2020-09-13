@@ -1,3 +1,14 @@
+/*
+	* Library: Samp Automatic Kick (advanced_kicks.inc)
+	* Author: Mergevos
+	* Date: 7. Septembre 2020.
+	* Copyright: (C) 2020
+	* Credits: 
+        omcho - include guards
+        samp-incognito - Streamer
+        Y_Less - y_iterate * y_hooks
+*/
+
 // built-in include guard removal
 // just in case the user has a local dependency with the same file name
 #if defined _inc_automatic_objects
