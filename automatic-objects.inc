@@ -1,3 +1,14 @@
+// built-in include guard removal
+// just in case the user has a local dependency with the same file name
+#if defined _inc_automatic_objects
+    #undef _inc_automatic_objects
+#endif
+// custom include-guard to ensure we don't duplicate
+#if defined _automatic_objects_included
+    #endinput
+#endif
+#define _automatic_objects_included
+
 #include < a_samp >
 #include < YSI_Data\y_iterate >
 #include < YSI_Coding\y_hooks >
